@@ -1,5 +1,5 @@
 <?php
-    $dsn = 'mysql:host=192.168.0.103;dbname=blogtest';
+    $dsn = 'mysql:host=;dbname=blogtest';
     $pdo = new PDO($dsn, 'root', '');
     $id = $_GET['id'];
 

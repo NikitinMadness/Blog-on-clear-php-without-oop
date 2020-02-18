@@ -7,7 +7,7 @@
             $userLoginA = filter_var(trim($_POST['userLoginAuth']),FILTER_SANITIZE_STRING);
             $userPswnA = filter_var(trim($_POST['userPasswordAuth']),FILTER_SANITIZE_STRING);
             $userPswnA = md5($userPswnA."gfgdjgh231");
-            $mysql = new mysqli('192.168.0.103', 'root', '',  'blogtest');
+            $mysql = new mysqli('', 'root', '',  'blogtest');
             $result = $mysql->query("SELECT * FROM users WHERE `UserName` = '$userLoginA' AND `UserPassword` = '$userPswnA'");
             $user = $result->fetch_assoc();
             if(count($user) == 0){
