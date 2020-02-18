@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainWrapp{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border-bottom: solid 1px rgb(141, 141, 141);
+    border-top: solid 1px rgb(112, 112, 112);
+    
+}
+
+.logoImgCn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 40px;
+    font-size: 125%;
+    text-decoration: none;
+    color: black;
+}
+
+.cnNav{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+}
+
+.cnNavC{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+}
+
+.cnNavC:hover{
+    color: rgb(66, 66, 66);
+}
+
+.cnNav:hover{
+    color: rgb(66, 66, 66);
+}
+
+.cnNavAB{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+}
+
+.cnNavAB:hover{
+    color: rgb(66, 66, 66);
+}
+
+.cnNavA{
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+}
+
+.cnNavA:hover{
+    color: rgb(66, 66, 66);
+}
+
+.admPnl{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+}
+.admPnl:hover{
+    color: rgb(66, 66, 66);
+}
+
+.extPnl{
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+}
+
+.extPnl:hover{
+    color: rgb(66, 66, 66);
+}
+
+/* content */
+
+.mainContent{
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    height: 100vw;
+    /* background-color: rgba(179, 197, 204, 0.452); */
+}
+
+.artTitleMain{
+    margin-top: 30px;
+    width: 500px;
+    font-size: 110%;
+    border-bottom: 1px solid gray;
+}
+
+.artContentMain{
+    margin-top: 20px;
+    width: 500px;
+    height: 150px;
+    font-size: 110%;
+    border: 1px solid gray;
+}
+
+.artRelizeMain{
+    margin-left: 36%;
+    margin-top: 5px;
+    width: 500px;
+    height: 30px;
+}
+
+.artTitleMain:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.artContentMain:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.openPost{
+    position: absolute;
+    margin-top: -30px;
+    text-decoration: none;
+    color: black;
+}
+
+.openPost:hover{
+    color: rgb(49, 49, 49);
+}
+
+.artMainAr{
+    border-bottom: solid 1px;
+    width: 33%;
+    margin-left: 25%;
+  }
+
+.articleWrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.articleTitle {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    margin-top: 35px;
+    font-size: 125%;
+    text-align: center;
+}
+
+.articleContent{
+    position: absolute;
+    height: 500px;
+    text-align: left;
+    margin-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 115%;
+    overflow: auto;
+}
+
+.articleRelize{
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 59%;
+}
+
+.articleAuthor{
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 50%;
+}
+
+.commendAdded{
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 670px;
+    margin-bottom: 30px;
+    border: solid 1px blue;
+}
+
+.cmtBtn{
+    position: absolute;
+    margin-top: 920px;
+    margin-bottom: 50px;
+    margin-left: 48%;
+    background-color: rgba(126, 253, 0, 0.842);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    width: 50px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.regWrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.UNR{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 30px;
+    border: solid 1px rgb(0, 68, 255);
+}
+
+.UER{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 85px;
+    border: solid 1px rgb(0, 68, 255);
+}
+
+.UPR{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 140px;
+    border: solid 1px rgb(0, 68, 255);
+}
+
+.UPR2{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 195px;
+    border: solid 1px rgb(0, 68, 255);
+}
+
+.regBtn{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    margin-left: 46.5%;
+    margin-top: 250px;
+    background-color: rgb(98, 196, 0);
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.regBtn:hover{
+    background-color: rgb(120, 184, 57);
+}
+
+.authZnAr{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.authName{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 30px;
+    border: solid 1px rgb(0, 68, 255);
+}
+
+.authPass{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 85px;
+    border: solid 1px rgb(0, 68, 255);
+}
+
+.authBtn{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    margin-left: 46.5%;
+    margin-top: 250px;
+    background-color: rgb(98, 196, 0);
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.authBtn:hover{
+    background-color: rgb(120, 184, 57);
+}
+
+.commentsZn{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 975px;
+}
+
+.cmAuthorZn{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    border-right: solid 1px black;
+}
+
+.cmBodyZn{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    margin-left: 33%;
+    margin-top: -110px;
+    overflow: auto;
+}
